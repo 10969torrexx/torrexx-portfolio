@@ -1188,3 +1188,12 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.text-purple {
+  color: #DB20AF !important;
+}
+
+.highlight {
+  color: #DB20AF;
+  font-weight: bolder;
+}
