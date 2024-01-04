@@ -65,7 +65,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: #1f1f24;
 }
 
 .section-header {
@@ -245,11 +245,11 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: #fff;
+  background: #1f1f24;
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #242429;
 }
 
 @media (max-width: 575px) {
@@ -259,7 +259,7 @@ section {
 }
 
 .header.sticked {
-  border-color: #fff;
+  border-color: #242429;
   border-color: #eee;
 }
 
@@ -1652,4 +1652,9 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/* additionals */
+body {
+  background-color: #1D1D1D !important;
 }
