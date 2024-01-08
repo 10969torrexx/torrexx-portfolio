@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #212529;
-  --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-default: #1D1D1D;
+  --color-primary: #DB20AF;
+  --color-secondary: #1f1f24;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #ec2727;
+  color: #DB20AF;
   text-decoration: none;
 }
 
@@ -178,7 +178,8 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  /* background: #DB20AF; */
+  background: #DB20AF;
   color: #fff;
 }
 
@@ -260,7 +261,7 @@ section {
 
 .header.sticked {
   border-color: #242429;
-  border-color: #eee;
+  border-color: #3b3b3f;
 }
 
 .header .logo img {
@@ -294,7 +295,7 @@ section {
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
   color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  background: rgba(219, 32, 175);
 }
 
 section {
@@ -334,8 +335,9 @@ section {
     padding: 0 3px;
     font-family: var(--font-secondary);
     font-size: 16px;
-    font-weight: 600;
-    color: #7f7f90;
+    /* font-weight: 600; */
+    /* color: #7f7f90; */
+    color: #fff;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -372,7 +374,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #000;
+    color: #DB20AF;
   }
 
   .navbar .dropdown ul {
@@ -385,7 +387,7 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: #1f1f24;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 4px;
@@ -647,7 +649,8 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(206, 18, 18, 0.7);
+  /* border: 5px solid rgba(206, 18, 18, 0.7); */
+  border: 5px solid rgba(219, 32, 175);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1283,7 +1286,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #DB20AF;
 }
 
 @keyframes animate-loading {
@@ -1469,7 +1472,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #DB20AF;
 }
 
 @keyframes animate-loading {
@@ -1525,7 +1528,7 @@ section {
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
+  background: rgba(219, 32, 175);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
@@ -1550,7 +1553,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: rgba(206, 18, 18, 0.8);
+  color: rgba(219, 32, 175);
 }
 
 @media (max-width: 640px) {
