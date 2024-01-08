@@ -13,7 +13,7 @@
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
+  --font-primary: "Century Gothic", sans-serif;
   --font-secondary: "Inter", sans-serif;
 }
 
@@ -22,6 +22,8 @@
   --color-default: #1D1D1D;
   --color-primary: #DB20AF;
   --color-secondary: #1f1f24;
+
+  --primary-font-color: #fff;
 }
 
 /* Smooth scroll behavior */
@@ -600,7 +602,7 @@ section {
 .about .call-us p {
   font-size: 28px;
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--primary-font-colory);
 }
 
 .about .content ul {
@@ -775,7 +777,7 @@ section {
 
 .why-us .icon-box p {
   font-size: 15px;
-  color: #6c757d;
+  color: var(--primary-font-color);
 }
 
 @media (min-width: 1200px) {
@@ -817,7 +819,7 @@ section {
   font-family: var(--font-secondary);
   font-size: 16px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-font-color);
 }
 
 /*--------------------------------------------------------------
@@ -1500,7 +1502,7 @@ section {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: var(--primary-font-color);
   font-family: var(--font-primary);
 }
 
@@ -1509,7 +1511,7 @@ section {
 }
 
 .hero p {
-  color: #4f4f5a;
+  color: var(--primary-font-color);
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1528,7 +1530,7 @@ section {
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(219, 32, 175);
+  background: rgb(172, 26, 138);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
@@ -1536,7 +1538,7 @@ section {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: var(--font-secondary);
+  color: var(--primary-font-color);
   font-weight: 600;
 }
 
