@@ -22,6 +22,10 @@
   --color-default: #1D1D1D;
   --color-primary: #DB20AF;
   --color-secondary: #1f1f24;
+
+  --primary-font-color: #fff;
+  --border-radius: 10px;
+  --border-raduis-100: 100%;
 }
 
 /* Smooth scroll behavior */
@@ -89,6 +93,8 @@ section {
   font-size: 48px;
   font-weight: 400;
   font-family: var(--font-primary);
+
+  color: var(--primary-font-color);
 }
 
 .section-header p span {
@@ -831,7 +837,7 @@ section {
   margin: 0 10px;
   padding: 10px 5px;
   transition: 0.3s;
-  color: var(--color-secondary);
+  color: var(--primary-font-color);
   border-radius: 0;
   cursor: pointer;
   height: 100%;
@@ -871,6 +877,7 @@ section {
 .menu .nav-link.active {
   color: var(--color-primary);
   border-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .menu .tab-content .tab-header {
@@ -1554,6 +1561,19 @@ section {
 
 .hero .btn-watch-video:hover i {
   color: rgba(219, 32, 175);
+}
+
+.hero .banner-image {
+  border-radius: var(--border-raduis-100);
+  background-color: var(--color-default);
+  overflow: hidden; 
+}
+
+.hero .banner-image img {
+  border-radius: 50%; /* Set the border-radius to 50% to create a circle */
+  display: block; /* Ensures the image behaves as a block element */
+  width: 100%; /* Makes the image fill the container width */
+  height: auto; /* Maintains the aspect ratio of the image */
 }
 
 @media (max-width: 640px) {
