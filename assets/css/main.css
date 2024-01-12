@@ -23,10 +23,16 @@
   --color-default: #1D1D1D;
   --color-primary: #c526a0;
   --color-secondary: #1f1f24;
+  --color-third: #19191b;
 
   --primary-font-color: #fff;
   --border-radius: 10px;
   --border-raduis-100: 100%;
+}
+
+/* border radius */
+:root {
+  --border-radius-10px: 10px;
 }
 
 /* Smooth scroll behavior */
@@ -93,7 +99,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 400;
-  font-family: var(--font-primary);
+  font-family: var(--font-default);
 
   color: var(--primary-font-color);
 }
@@ -656,7 +662,6 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  /* border: 5px solid rgba(206, 18, 18, 0.7); */
   border: 5px solid rgba(219, 32, 175);
   top: -15%;
   left: -15%;
@@ -719,6 +724,7 @@ section {
   padding: 30px;
   background: var(--color-primary);
   color: #fff;
+  border-radius: var(--border-radius-10px);
 }
 
 .why-us .why-box h3 {
@@ -751,7 +757,7 @@ section {
 
 .why-us .icon-box {
   text-align: center;
-  background: #fff;
+  background: var(--color-default);
   padding: 40px 30px;
   width: 100%;
   height: 100%;
@@ -1681,4 +1687,20 @@ section {
 /* additionals */
 body {
   background-color: #1D1D1D !important;
+}
+
+
+.custom-header {
+  color: var(--primary-font-color);
+}
+
+.custom-header span{
+  color: var(--color-primary);
+}
+
+.divider {
+  margin-top: 20px;
+  width: 30%;
+  background: linear-gradient(to right, transparent 0%, var(--color-primary) 20%, var(--color-primary) 80%, transparent 100%);
+  height: 2px; /* Adjust thickness as needed */
 }
