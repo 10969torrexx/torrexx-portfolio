@@ -47,13 +47,10 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#chefs">Chefs</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li hidden class="dropdown"><a href="#projects"><span>Projects</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li><a data-bs-toggle="tab" data-bs-target="#project-web" href="#projects">Web Developer</a></li>
+              <li class="dropdown" hidden><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -62,11 +59,15 @@
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a data-bs-toggle="tab" data-bs-target="#project-graphics" href="#projects">Graphics Design</a></li>
+              <li><a data-bs-toggle="tab" data-bs-target="#project-video" href="#projects">Video Editing</a></li>
+              <li><a data-bs-toggle="tab" data-bs-target="#project-visual" href="#projects">Visual Arts</a></li>
             </ul>
           </li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -262,25 +263,25 @@
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
           <li class="nav-item">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-              <h4>Starters</h4>
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#project-web">
+              <h4>Web Developer</h4>
             </a>
           </li><!-- End tab nav item -->
 
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Breakfast</h4>
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#project-graphics">
+              <h4>Graphics Design</h4>
             </a><!-- End tab nav item -->
 
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Lunch</h4>
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#project-video">
+              <h4>Video Editing</h4>
             </a>
           </li><!-- End tab nav item -->
 
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>Dinner</h4>
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#project-visual">
+              <h4>Visual Arts</h4>
             </a>
           </li><!-- End tab nav item -->
 
@@ -288,11 +289,11 @@
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
 
-          <div class="tab-pane fade active show" id="menu-starters">
+          <div class="tab-pane fade active show" id="project-web">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Starters</h3>
+              <p>Project</p>
+              <h3>Web Developer</h3>
             </div>
 
             <div class="row gy-5">
@@ -366,11 +367,11 @@
             </div>
           </div><!-- End Starter Menu Content -->
 
-          <div class="tab-pane fade" id="menu-breakfast">
+          <div class="tab-pane fade" id="project-graphics">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Breakfast</h3>
+              <p>Project</p>
+              <h3>Graphics Design</h3>
             </div>
 
             <div class="row gy-5">
@@ -444,11 +445,11 @@
             </div>
           </div><!-- End Breakfast Menu Content -->
 
-          <div class="tab-pane fade" id="menu-lunch">
+          <div class="tab-pane fade" id="project-video">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Lunch</h3>
+              <p>Project</p>
+              <h3>Video Editing</h3>
             </div>
 
             <div class="row gy-5">
@@ -522,11 +523,11 @@
             </div>
           </div><!-- End Lunch Menu Content -->
 
-          <div class="tab-pane fade" id="menu-dinner">
+          <div class="tab-pane fade" id="project-visual">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Dinner</h3>
+              <p>Project</p>
+              <h3>Visual Arts</h3>
             </div>
 
             <div class="row gy-5">
@@ -612,6 +613,9 @@
         <div class="section-header">
           <h2>Testimonials</h2>
           <p>What Are They <span>Saying About Us</span></p>
+          <div class="row justify-content-center">
+            <div class="divider"></div>
+          </div>
         </div>
 
         <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
