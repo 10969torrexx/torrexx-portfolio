@@ -15,12 +15,13 @@
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Amatic SC", sans-serif;
   --font-secondary: "Inter", sans-serif;
+
 }
 
 /* Colors */
 :root {
   --color-default: #1D1D1D;
-  --color-primary: #DB20AF;
+  --color-primary: #c526a0;
   --color-secondary: #1f1f24;
 
   --primary-font-color: #fff;
@@ -1503,12 +1504,12 @@ section {
   padding: 160px 0 60px 0;
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
-  font-family: var(--font-primary);
+  color: var(--primary-font-color);
+  font-family: var(--font-default);
 }
 
 .hero h2 span {
@@ -1516,7 +1517,7 @@ section {
 }
 
 .hero p {
-  color: #4f4f5a;
+  color: var(--primary-font-color);
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1531,19 +1532,19 @@ section {
   transition: 0.5s;
   color: #fff;
   background: var(--color-primary);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+  box-shadow: 0 8px 28px rgb(46, 8, 37);
 }
 
 .hero .btn-book-a-table:hover {
   background: rgba(219, 32, 175);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+  box-shadow: 0 8px 28px rgb(98, 15, 79);
 }
 
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: var(--font-secondary);
+  color: var(--primary-font-color);
   font-weight: 600;
 }
 
