@@ -891,7 +891,7 @@ section {
 .menu .nav-link.active {
   color: var(--color-primary);
   border-color: var(--color-primary);
-  background-color: var(--color-secondary);
+  background-color: var(--color-default);
 }
 
 .menu .tab-content .tab-header {
