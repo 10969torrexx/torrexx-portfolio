@@ -915,10 +915,14 @@ section {
 
 .menu .tab-content .menu-item {
   text-align: left;
-  background: var(--color-secondary);
-  padding: 40px 30px;
+  padding: 10px;
   height: 100%;
   transition: 0.3s;
+}
+
+.project-box {
+  background-color: var(--color-secondary);
+  padding: 40px 30px;
 }
 
 .menu .tab-content .menu-item .menu-img {
@@ -1721,6 +1725,6 @@ body {
   display: flex;
 }
 
-.glightbox.project-img {
+.project-img {
   margin-right: 10px; /* Adjust this value to add space between the elements */
 }
