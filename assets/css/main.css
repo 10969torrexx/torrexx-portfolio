@@ -926,6 +926,11 @@ section {
   margin-bottom: 20px;
 }
 
+.project-box .visual-art {
+  height: 100%;
+  width: 100%;
+}
+
 .menu .tab-content .menu-item .menu-img {
   padding: 0 60px;
 }
@@ -1741,4 +1746,19 @@ body {
   justify-content: center;
   width: 40px;
   height: 40px;
+}
+
+
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid; /* Prevent breaking inside a gallery item */
+}
+
+img {
+  width: 100%;
+  border-radius: 8px; /* Optional: Add rounded corners to images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
 }
