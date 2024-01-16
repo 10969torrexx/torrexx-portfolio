@@ -915,7 +915,7 @@ section {
 
 .menu .tab-content .menu-item {
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   height: 100%;
   transition: 0.3s;
 }
@@ -923,7 +923,7 @@ section {
 .project-box {
   background-color: var(--color-secondary);
   padding: 40px 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .project-box .visual-art {
@@ -1757,8 +1757,16 @@ body {
   break-inside: avoid; /* Prevent breaking inside a gallery item */
 }
 
-img {
+.gallery-item img {
   width: 100%;
   border-radius: 8px; /* Optional: Add rounded corners to images */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+.new-icon {
+  background-color: var(--color-primary);
+  color: var(--primary-font-color);
+  font-size: 12px;
+  padding: 3px;
+  font-weight: bold;
+  margin-left: 5px; /* Adjust the spacing as needed */
 }
