@@ -923,6 +923,7 @@ section {
 .project-box {
   background-color: var(--color-secondary);
   padding: 40px 30px;
+  margin-bottom: 20px;
 }
 
 .menu .tab-content .menu-item .menu-img {
