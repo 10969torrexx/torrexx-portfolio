@@ -542,7 +542,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: var(--color-secondary);
+    color: var(--primary-font-color);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
