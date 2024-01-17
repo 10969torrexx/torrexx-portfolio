@@ -794,7 +794,7 @@ section {
 
 .why-us .icon-box p {
   font-size: 15px;
-  color: var(--primary-font-color);
+  color: var(--color-p);
 }
 
 @media (min-width: 1200px) {
@@ -803,6 +803,10 @@ section {
     /* box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3); */
     background-color: rgb(98, 15, 79);
     box-shadow: 0 8px 28px rgb(98, 15, 79);
+  }
+  .why-us .icon-box:hover p {
+    color: var(--primary-font-color);
+    transition: 0.9;
   }
 }
 
