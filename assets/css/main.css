@@ -839,7 +839,6 @@ section {
 @media (min-width: 1200px) {
   .why-us .icon-box:hover {
     transform: scale(1.1);
-    /* box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3); */
     background-color: rgb(98, 15, 79);
     box-shadow: 0 8px 28px rgb(98, 15, 79);
   }
@@ -1165,9 +1164,10 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+  background: var(--color-third);
   transition: 0.3s;
+  padding: 20px;
+  width: 100%;
 }
 
 .chefs .chef-member .member-img {
@@ -1216,21 +1216,23 @@ section {
 }
 
 .chefs .chef-member .member-info {
-  padding: 10px 15px 20px 15px;
+  background-color: var(--color-third);
+  padding: 40px 15px 20px 15px;
+  text-align: left !important;
 }
 
 .chefs .chef-member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: var(--color-secondary);
+  color: var(--primary-font-color);
 }
 
 .chefs .chef-member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: rgba(33, 37, 41, 0.4);
+  color:var(--color-primary)
 }
 
 .chefs .chef-member .member-info p {
@@ -1238,12 +1240,19 @@ section {
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: rgba(33, 37, 41, 0.7);
+  color: var(--color-p);
+}
+
+.chefs .chef-member .member-info ul {
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 26px;
+  color: var(--color-p);
 }
 
 .chefs .chef-member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+  /* transform: scale(1.08); */
+  box-shadow: 0 8px 28px rgb(98, 15, 79);
 }
 
 .chefs .chef-member:hover .social {
