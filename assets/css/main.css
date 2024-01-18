@@ -1229,7 +1229,6 @@ section {
 }
 
 .chefs .chef-member .member-info span {
-  display: block;
   font-size: 14px;
   font-weight: 400;
   color:var(--color-primary)
@@ -1238,16 +1237,28 @@ section {
 .chefs .chef-member .member-info p {
   font-style: italic;
   font-size: 14px;
-  padding-top: 15px;
-  line-height: 26px;
   color: var(--color-p);
 }
 
 .chefs .chef-member .member-info ul {
-  font-size: 14px;
+  list-style: none;
   padding-top: 15px;
   line-height: 26px;
-  color: var(--color-p);
+  color: var(--primary-font-color);
+  padding-inline-start: 0; 
+}
+
+.chefs .chef-member .member-info ul li { 
+  position: relative;
+  padding: 0 0 8px 26px;
+}
+
+
+
+.chefs .chef-member .member-info ul i {
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
 }
 
 .chefs .chef-member:hover {
