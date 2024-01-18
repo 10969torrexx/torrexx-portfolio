@@ -591,6 +591,8 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #000;
+
+  height: 700px;
 }
 
 .about h3 {
@@ -598,6 +600,10 @@ section {
   font-size: 36px;
   margin-bottom: 30px;
   font-family: var(--font-secondary);
+}
+
+.about span {
+  color: var(--color-primary);
 }
 
 .about .call-us {
@@ -1750,6 +1756,7 @@ section {
 /* additionals */
 body {
   background-color: #0f0f0f !important;
+  overflow-x: hidden;
 }
 
 
