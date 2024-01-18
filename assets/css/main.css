@@ -961,6 +961,7 @@ section {
   background-color: var(--color-secondary);
   padding: 40px 30px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .project-box .visual-art {
