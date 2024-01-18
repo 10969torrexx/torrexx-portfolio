@@ -585,7 +585,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
-  background-image: url('assets/img/about.png');
+  /* background-image: url('/assets/img/about.png'); */
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
