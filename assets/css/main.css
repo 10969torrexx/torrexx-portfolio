@@ -551,7 +551,7 @@ section {
   }
 
   .mobile-nav-hide {
-    color: var(--color-secondary);
+    color: var(--primary-font-color);
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
@@ -574,7 +574,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background-color: var(--color-third);
+    background-color: rgb(42, 42, 42, 0.5);
     z-index: 9996;
   }
 }
