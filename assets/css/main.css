@@ -1655,7 +1655,6 @@ section {
 
 .hero .banner-image {
   border-radius: var(--border-raduis-100);
-  background-color: var(--color-default);
   overflow: hidden; 
   height: 500px;
   width: 500px;
@@ -1670,7 +1669,18 @@ section {
   height: auto; /* Maintains the aspect ratio of the image */
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
+  .hero .banner-image {
+   height: 100%;
+   width: 100%;
+   padding: 10%;
+   background-color: var(--color-secondary);
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
   .hero h2 {
     font-size: 36px;
   }
