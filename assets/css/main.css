@@ -350,8 +350,6 @@ section {
     padding: 0 3px;
     font-family: var(--font-secondary);
     font-size: 16px;
-    /* font-weight: 600; */
-    /* color: #7f7f90; */
     color: #fff;
     white-space: nowrap;
     transition: 0.3s;
@@ -488,7 +486,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background-color: var(--color-third);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -501,10 +499,10 @@ section {
     justify-content: space-between;
     padding: 10px 20px;
     font-family: var(--font-secondary);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    background-color: var(--color-third);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color: var(--primary-font-color);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -518,12 +516,12 @@ section {
 
   .navbar a:hover,
   .navbar li:hover>a {
-    color: #000;
+    color: var(--color-primary);
   }
 
   .navbar .active,
   .navbar .active:focus {
-    color: #000;
+    color: var(--color-primary);
     border-color: var(--color-primary);
   }
 
@@ -576,7 +574,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background-color: var(--color-third);
     z-index: 9996;
   }
 }
