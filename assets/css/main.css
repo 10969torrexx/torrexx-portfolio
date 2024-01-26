@@ -1761,8 +1761,8 @@ section {
 }
 
 .footer .social-links a:hover {
-  color: #fff;
-  border-color: #fff;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .footer .copyright {
